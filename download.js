@@ -61,7 +61,7 @@ async function run() {
 
   console.log();
   console.log('done.');
-  console.log(`file name: ${fileName}`);
+  console.log(`file name: ${OUTPUT_FILENAME}`);
   console.log(`  batches: ${batch}`);
   console.log(`  records: ${trans}`);
   console.log(`    bytes: ${bytes}`);
