@@ -1,0 +1,24 @@
+{
+  "name": "finserv-xact-downloader",
+  "version": "1.0.0",
+  "description": "Downloads Transactions from Eden Demo",
+  "main": "download.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric-lowry/finserv-xact-downloader.git"
+  },
+  "author": "Eric Lowry <eric.lowry@elastic.co>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eric-lowry/finserv-xact-downloader/issues"
+  },
+  "homepage": "https://github.com/eric-lowry/finserv-xact-downloader#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.6.0",
+    "dotenv": "^16.0.3",
+    "filesize": "^10.0.6"
+  }
+}
